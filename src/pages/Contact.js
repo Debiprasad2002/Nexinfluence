@@ -4,7 +4,7 @@ import  '../assets/css/Contact.css';
 function Contact() {
     return (
         <div className="contact">
-            <h1>Contact Us</h1>
+            <h1>Git hub</h1>
             <form className="contact-form">
                 <input type="text" placeholder="Your Name" required />
                 <input type="email" placeholder="Your Email" required />
