@@ -1,0 +1,54 @@
+.home {
+    padding: 20px;
+    background: linear-gradient(to bottom right, #f0f4f8, #d9e2ec);
+}
+
+.card-container {
+    margin-bottom: 30px;
+}
+
+.card-row {
+    display: flex;
+    overflow-x: auto;
+    padding-bottom: 15px;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: #007bff #f1f1f1;
+}
+
+.card-row::-webkit-scrollbar {
+    height: 8px;
+}
+
+.card-row::-webkit-scrollbar-thumb {
+    background-color: #007bff;
+    border-radius: 10px;
+}
+
+.card-container h2 {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+.form-section {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.form-button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+    background-color: #0056b3;
+}

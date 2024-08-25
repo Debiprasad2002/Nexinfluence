@@ -1,0 +1,48 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: linear-gradient(90deg, #007bff, #00d4ff);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-logo {
+    font-size: 4px;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar-search {
+    flex-grow: 1;
+    margin: 0 20px;
+}
+
+.navbar-search input {
+    width: 100%;
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+}
+
+.navbar-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.navbar-buttons button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: color 0.3s, border-bottom 0.3s;
+}
+
+.navbar-buttons button:hover {
+    color: #00d4ff;
+    border-bottom: 2px solid white;
+}
