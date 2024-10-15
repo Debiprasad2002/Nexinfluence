@@ -45,19 +45,15 @@ import '../assets/css/Home.css';
 
 function Home() {
     const cardData = [
-        { image: '/images/image1.png', price: '29.99', link: 'https://amazon.com' },
-        { image: '/images/image2.png', price: '39.99', link: 'https://flipkart.com' },
-        { image: '/images/image3.png', price: '49.99', link: 'https://nykaa.com' },
+        { image: '/images/Cardimages/image1.webp', price: '29.99', link: 'https://amazon.com' },
+        { image: '/images/Cardimages/image2.webp', price: '39.99', link: 'https://flipkart.com' },
+        { image: '/images/Cardimages/image3.webp', price: '49.99', link: 'https://nykaa.com' },
+        { image: '/images/Cardimages/image4.webp', price: '59.99', link: 'https://myntra.com' },
+        { image: '/images/Cardimages/image5.webp', price: '59.99', link: 'https://myntra.com' },
+        { image: '/images/Cardimages/image6.webp', price: '59.99', link: 'https://myntra.com' },
+        { image: '/images/Cardimages/image3.webp', price: '59.99', link: 'https://myntra.com' },
+        { image: '/images/Cardimages/image5.webp', price: '59.99', link: 'https://myntra.com' },
         { image: '/images/image4.png', price: '59.99', link: 'https://myntra.com' },
-        { image: '/images/image4.png', price: '59.99', link: 'https://myntra.com' },
-        { image: '/images/image4.png', price: '59.99', link: 'https://myntra.com' },
-        { image: '/images/image4.png', price: '59.99', link: 'https://myntra.com' },
-        { image: '/images/image4.png', price: '59.99', link: 'https://myntra.com' },
-        { image: '/images/image4.png', price: '59.99', link: 'https://myntra.com' },
-
-        
-        
-        
 
 
         // Add more products as needed

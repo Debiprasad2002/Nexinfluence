@@ -46,19 +46,19 @@ function MyCarousel() {
         <Carousel autoPlay infiniteLoop showThumbs={false}>
             <div>
                 <img src={Car1} alt="Campaign 1" />
-                <p className="legend">Beautiful Campaign 1</p>
+                <p className="legend"></p>
             </div>
             <div>
                 <img src={Car2} alt="Campaign 2" />
-                <p className="legend">Stunning Campaign 2</p>
+                <p className="legend"></p>
             </div>
             <div>
                 <img src={Car3} alt="Campaign 3" />
-                <p className="legend">Amazing Campaign 3</p>
+                <p className="legend"></p>
             </div>
             <div>
                 <img src={Car4} alt="Campaign 4" />
-                <p className="legend">Awesome Campaign 4</p>
+                <p className="legend"></p>
             </div>
         </Carousel>
     );
