@@ -73,8 +73,11 @@
     display: flex;               /* Flexbox for content alignment */
     flex-direction: column;      /* Align children in a column */
     justify-content: flex-start; /* Align items to the top */
-    overflow: hidden;            /* Prevent content overflow */
+    overflow: hidden;  
+    transition: transform 0.2s ease;  /* Smoothly scale the logo on hover */
+    cursor: pointer;          /* Prevent content overflow */
 }
+
 
 /* Image styling */
 .card-image {

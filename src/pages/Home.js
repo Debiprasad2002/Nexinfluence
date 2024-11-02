@@ -161,7 +161,8 @@ import {
     FeaturedProduct2, 
     FeaturedProduct3, 
     FeaturedProduct4, 
-    FeaturedProduct5 
+    FeaturedProduct5,
+    FeaturedProduct6
 } from '../components/Card'; // Import all Featured Products here
 import Footer from '../components/Footer';
 import '../assets/css/Home.css';
@@ -178,6 +179,7 @@ function Home() {
             <FeaturedProduct3 />
             <FeaturedProduct4 />
             <FeaturedProduct5 />
+            <FeaturedProduct6 />
 
             {/* Form Section */}
             <div className="form-section">

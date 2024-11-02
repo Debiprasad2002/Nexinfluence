@@ -7,6 +7,8 @@
     position: sticky;
     top: 0;
     z-index: 1000;
+    overflow: hidden;
+    max-height: 30px;
 }
 
 .navbar-logo {
@@ -45,4 +47,32 @@
 .navbar-buttons button:hover {
     color: #00d4ff;
     border-bottom: 2px solid white;
+}
+
+.nav-link{
+    text-decoration: none;
+    transition: transform 0.3s ease;  /* Smoothly scale the logo on hover */
+    cursor: pointer; 
+}
+.nav-link:hover{
+    transform: scale(1.1);  /* Slightly increase the logo size on hover */ 
+}
+.navbar-right{
+display: flex;
+gap: 15px;
+
+
+}
+
+.navbar-left {
+    flex: 1;
+}
+
+.logo{
+    width: 99px;
+    transition: transform 0.3s ease;  /* Smoothly scale the logo on hover */
+    cursor: pointer; 
+}
+.logo:hover {
+    transform: scale(1.1);  /* Slightly increase the logo size on hover */
 }
