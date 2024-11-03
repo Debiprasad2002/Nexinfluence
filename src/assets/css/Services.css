@@ -24,9 +24,138 @@
 /* Content styling for the Services section */
 .services-content {
     padding: 20px;
-    max-width: 800px; /* Optional: limit width for better readability */
+    width: 100vw;
+    /* max-width: 800px;  */
+    /* Optional: limit width for better readability */
     background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
     border-radius: 10px;
     margin-top: 20px; /* Adds space between video and content */
     color: #fff;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+/* Main container for the Services page */
+.services {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.services-title {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 10px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.services-description {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 40px;
+    animation: fadeIn 1.2s ease-in-out;
+}
+
+/* Service card styling */
+.service-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 900px;
+    margin: 20px auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: slideUp 1s ease-in-out;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Placeholder for service images */
+.service-image {
+    width: 250px;
+    height: 250px;
+    background-color: #ddd;
+    border-radius: 10px;
+    margin-right: 20px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Content styling within each card */
+.service-content {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.service-content h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.service-content p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.6;
+    animation: fadeIn 1.2s ease-in-out;
+}
+
+/* Keyframes for animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* Animated gradient background */
+.services-2 {
+    position: relative;
+    width: 100vw; /* Full-width */
+    padding: 40px;
+    background: linear-gradient(120deg, #89f7fe, #66a6ff, #d4fc79, #96e6a1);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+/* Gradient animation */
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
 }

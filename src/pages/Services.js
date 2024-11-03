@@ -14,7 +14,7 @@ function Services() {
             </div>
             {/* Content section below the video */}
             <div className="services-content">
-                <h1>Our Services</h1>
+                <h1>Our Motto </h1>
                 <p>We offer a wide range of services to boost your online presence.</p>
                 <ul>
                     <li>Influencer Marketing</li>
@@ -23,6 +23,43 @@ function Services() {
                     <li>Brand Strategy</li>
                 </ul>
             </div>
+
+            <div className="services-2">
+            <h1 className="services-title">Nexinfluence</h1>
+            <p className="services-description">We offer a wide range of services to boost your online presence.</p>
+            
+            <div className="service-card">
+                <div className="service-image"> {/* Placeholder for image */}</div>
+                <div className="service-content">
+                    <h2>Influencer Marketing</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                </div>
+            </div>
+
+            <div className="service-card">
+                <div className="service-image"> {/* Placeholder for image */}</div>
+                <div className="service-content">
+                    <h2>Social Media Management</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                </div>
+            </div>
+
+            <div className="service-card">
+                <div className="service-image"> {/* Placeholder for image */}</div>
+                <div className="service-content">
+                    <h2>Content Creation</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                </div>
+            </div>
+
+            <div className="service-card">
+                <div className="service-image"> {/* Placeholder for image */}</div>
+                <div className="service-content">
+                    <h2>Brand Strategy</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                </div>
+            </div>
+        </div>
         </div>
     );
 }
