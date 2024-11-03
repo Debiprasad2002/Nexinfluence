@@ -113,12 +113,12 @@ import img36 from '../Images/Cardimages/img36.png';
 // Card data for Featured Products
 const featuredProducts = [
     [
-        { price: 12.99, link: 'https://example1.com', image: img1, productName: "Just Herbs mini Lipstick Kit" },
-        { price: 19.50, link: 'https://sample2.com', image: img2, productName: "Just Herbs Massage Cream" },
-        { price: 8.75, link: 'https://webshop3.com', image: img3, productName: "Just Herbs EDP Perfumes" },
-        { price: 25.40, link: 'https://store4.com', image: img4, productName: "Just Herbs Serum Waterproof 8ml" },
-        { price: 14.99, link: 'https://ecommerce5.com', image: img5, productName: "Just Herbs Matte Lipstick" },
-        { price: 18.30, link: 'https://randomshop6.com', image: img6, productName: "Just Herbs Red EDP Perfume" },
+        { price: 12.99, link: 'http://surl.li/pbjjpb ', image: img1, productName: "Just Herbs mini Lipstick Kit" },
+        { price: 19.50, link: 'http://surl.li/yobfiu', image: img2, productName: "Just Herbs Massage Cream" },
+        { price: 8.75, link: 'http://surl.li/wtvdgu', image: img3, productName: "Just Herbs EDP Perfumes" },
+        { price: 25.40, link: 'http://surl.li/odkohw', image: img4, productName: "Just Herbs Serum Waterproof 8ml" },
+        { price: 14.99, link: 'http://surl.li/cbwopn', image: img5, productName: "Just Herbs Matte Lipstick" },
+        { price: 18.30, link: 'http://surl.li/gclmmm', image: img6, productName: "Just Herbs Red EDP Perfume" },
     ],
     [
         { price: 11.25, link: 'http://surl.li/qedhex', image: img7, productName: "Nourish Mantra Luxury Perfume " },
