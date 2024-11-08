@@ -24,7 +24,7 @@ function About() {
                         <img src={bannerImage } alt="Team working" />
                     </div>
                     <div className="content-description">
-                        <h2>Welcome to Nexinfluence</h2>
+                        <h2>Welcome to Nexinfluence </h2>
                         <p>Welcome to NexInfluence, your all-in-one platform for redefining influencer marketing. We're a team of passionate professionals dedicated to helping brands and influencers collaborate seamlessly and achieve their goals.</p>
                         <p>Our cutting-edge platform is designed to make influencer marketing faster, more efficient, and transparent. Whether you're an influencer looking to connect with top brands or a brand seeking to promote your products, NexInfluence is your go-to solution..</p>
                         <p>Unlike traditional agencies, we optimize every step of the process. Our platform helps influencers reach the right brands, while brands can easily find influencers who align with their vision. With NexInfluence, you can manage campaigns smoothly, access real-time data analysis, and build impactful partnerships—all with complete transparency.</p>
