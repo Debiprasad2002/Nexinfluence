@@ -119,6 +119,7 @@ const featuredProducts = [
         { price: 25.40, link: 'http://surl.li/odkohw', image: img4, productName: "Just Herbs Serum Waterproof 8ml" },
         { price: 14.99, link: 'http://surl.li/cbwopn', image: img5, productName: "Just Herbs Matte Lipstick" },
         { price: 18.30, link: 'http://surl.li/gclmmm', image: img6, productName: "Just Herbs Red EDP Perfume" },
+        
     ],
     [
         { price: 11.25, link: 'http://surl.li/qedhex', image: img7, productName: "Nourish Mantra Luxury Perfume " },
@@ -160,7 +161,7 @@ const featuredProducts = [
         { price: 11.60, link: 'http://surl.li/yuxksw', image: img35, productName: "The Man Company SBC - 50gm" },
         { price: 20.45, link: 'http://surl.li/ajnjnl', image: img36, productName: "he Man Company Glow Pro Face Wash" },
     ]
-    
+        
 ];
 
 // Card Component

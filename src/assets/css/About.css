@@ -53,3 +53,111 @@
     font-size: 16px;
     color: #777;
 }
+
+
+
+
+
+/* Banner Section */
+.banner {
+    position: relative;
+    width: 100%;
+    height: 90vh; /* Increase the height for more visibility */
+    background-size: cover;
+    background-position: top center; /* Adjust to show the top part of the image */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-content {
+    text-align: center;
+    color: white;
+}
+
+.banner-content h1 {
+    font-size: 3.5rem; /* Increase size for a bold impact */
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    animation: fadeInUp 1s ease-in-out forwards; /* Add fade and slide animation */
+}
+
+.banner-content p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    max-width: 600px;
+    opacity: 0;
+    animation: fadeInUp 1.5s ease-in-out forwards; /* Add animation delay for a staggered effect */
+    animation-delay: 0.5s;
+}
+
+
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px); /* Start slightly below */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); /* End at original position */
+    }
+}
+
+/* About Section */
+.about-section {
+    display: flex;
+    justify-content: center;
+    padding: 4rem 2rem;
+    background-color: #f8f9fa;
+}
+
+.content-wrapper {
+    display: flex;
+    max-width: 1200px;
+    background: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.content-image {
+    width: 50%;
+}
+
+.content-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content-description {
+    padding: 2rem;
+    width: 50%;
+}
+
+.content-description h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.content-description p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+    margin-top: 0.5rem;
+}
