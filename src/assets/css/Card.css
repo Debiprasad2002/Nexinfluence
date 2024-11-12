@@ -79,6 +79,22 @@
 }
 
 
+.card {
+    flex: 0 0 300px;                 /* This ensures the cards are uniformly sized */
+    height: 400px;                   /* Set a fixed height */
+    margin-right: 15px;              /* Space between cards */
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
 /* Image styling */
 .card-image {
     width: 100%;                 /* Full width */

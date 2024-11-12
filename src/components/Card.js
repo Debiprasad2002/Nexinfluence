@@ -120,6 +120,7 @@ const featuredProducts = [
         { price: 14.99, link: 'http://surl.li/cbwopn', image: img5, productName: "Just Herbs Matte Lipstick" },
         { price: 18.30, link: 'http://surl.li/gclmmm', image: img6, productName: "Just Herbs Red EDP Perfume" },
         
+        
     ],
     [
         { price: 11.25, link: 'http://surl.li/qedhex', image: img7, productName: "Nourish Mantra Luxury Perfume " },
