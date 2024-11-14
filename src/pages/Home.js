@@ -183,9 +183,13 @@ function Home() {
 
             {/* Form Section */}
             <div className="form-section">
-                <button className="form-button">Campaign Details</button>
-                <button className="form-button">Deliverables</button>
-            </div>
+    <a href="https://forms.gle/bRmPHiDAnWbsyymo8" target="_blank" rel="noopener noreferrer">
+        <button className="form-button">Campaign Details</button>
+    </a>
+    <a href="https://forms.gle/w1nnLvi7Dzq8QpE97" target="_blank" rel="noopener noreferrer">
+        <button className="form-button">Deliverables</button>
+    </a>
+</div>
 
             {/* Footer */}
             <Footer />

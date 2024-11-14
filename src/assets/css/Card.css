@@ -139,3 +139,270 @@
     background: linear-gradient(90deg, #00bfff, #6a5acd); /* Reverse gradient on hover */
     transform: scale(1.05); /* Slightly increase size on hover */
 }
+
+
+
+
+/* For the card row to allow horizontal scrolling */
+.card-row {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    padding: 10px 0;
+    gap: 15px; /* Spacing between cards */
+    scroll-snap-type: x mandatory; /* Snap effect for smooth scrolling */
+}
+
+/* For individual cards */
+.card {
+    flex: 0 0 250px; /* Same width for each card */
+    height: 350px; /* Fixed height */
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    scroll-snap-align: start; /* Ensures card snapping */
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+/* Card hover effect */
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Image inside card */
+.card-image {
+    width: 100%;
+    height: 200px; /* Fixed image height */
+    object-fit: cover;
+}
+
+/* Card content styling */
+.product-name, .price {
+    text-align: center;
+    margin: 10px;
+}
+
+/* For responsive view */
+@media (max-width: 768px) {
+    .card {
+        width: 80vw; /* Adjust width on smaller screens */
+    }
+}
+
+
+
+
+
+
+
+
+/* Card container for horizontal scrolling */
+.card-row {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px 0;
+    gap: 15px;
+    scroll-snap-type: x mandatory;
+    max-width: calc(250px * 6 + 15px * 5); /* Limit to 6 cards with spacing */
+}
+
+/* Individual card styling */
+.card {
+    flex: 0 0 250px; /* Fixed card width */
+    height: 350px; /* Fixed card height */
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    scroll-snap-align: start;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+/* Hover effect */
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Image container, occupying 70% of the card height */
+.card-image-container {
+    height: 70%; /* 70% of card height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #ddd; /* Divider line */
+}
+
+/* Image styling to ensure it fits within container */
+.card-image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Ensure the whole image is visible */
+}
+
+/* Card content for title, price, and button */
+.card-content {
+    height: 30%; /* Remaining 30% of card height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+/* Title styling */
+.product-name {
+    font-size: 16px;
+    margin: 0;
+    text-align: center;
+}
+
+/* Price styling */
+.price {
+    font-size: 14px;
+    color: #333;
+}
+
+/* Button styling */
+.button {
+    background: linear-gradient(90deg, #6a5acd, #00bfff);
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+/* Button hover effect */
+.button:hover {
+    background: linear-gradient(90deg, #00bfff, #6a5acd);
+    transform: scale(1.05);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card {
+        width: 80vw;
+    }
+}
+
+
+
+
+
+
+
+/* Card row container for desktop view */
+.card-row {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    overflow-y: hidden; /* Prevent vertical scrolling inside the card row */
+    padding: 10px 0;
+    gap: 15px;
+    scroll-snap-type: x mandatory;
+    max-width: calc(250px * 6 + 15px * 5); /* Limit to 6 cards with spacing */
+    white-space: nowrap; /* Prevent cards from wrapping to a new line */
+    -ms-overflow-style: none; /* Hide scrollbar on IE and Edge */
+    scrollbar-width: none; /* Hide scrollbar on Firefox */
+}
+
+.card-row::-webkit-scrollbar {
+    display: none; /* Hide scrollbar on Webkit browsers */
+}
+
+/* Individual card styling remains the same */
+.card {
+    flex: 0 0 250px; /* Fixed card width */
+    height: 350px; /* Fixed card height */
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: inline-flex; /* Inline-flex to respect white-space nowrap */
+    flex-direction: column;
+    overflow: hidden;
+    scroll-snap-align: start;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+/* Hover effect */
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card {
+        width: 80vw; /* Adjust width on smaller screens */
+    }
+    .card-row {
+        max-width: 100%; /* Full width on mobile */
+    }
+}
+
+
+
+
+
+
+/* Card container wrapper for managing vertical scroll independently */
+.card-row-wrapper {
+    overflow-x: hidden; /* Prevent horizontal overflow on the main page */
+    width: 100%;
+}
+
+/* Card row container for horizontal scrolling */
+.card-row {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    overflow-y: hidden; /* Prevent vertical scroll inside the card row */
+    padding: 10px 0;
+    gap: 15px;
+    scroll-snap-type: x mandatory;
+    max-width: calc(250px * 6 + 15px * 5); /* Limit to 6 cards with spacing */
+    white-space: nowrap; /* Prevent cards from wrapping to a new line */
+    -ms-overflow-style: none; /* Hide scrollbar on IE and Edge */
+    scrollbar-width: thin; /* Show scrollbar on Firefox */
+}
+
+.card-row::-webkit-scrollbar {
+    display: none; /* Hide scrollbar on WebKit browsers */
+}
+
+/* Individual card styling */
+.card {
+    flex: 0 0 250px; /* Fixed card width */
+    height: 350px; /* Fixed card height */
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: inline-flex; /* Inline-flex to respect white-space nowrap */
+    flex-direction: column;
+    overflow: hidden;
+    scroll-snap-align: start;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+/* Hover effect */
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card {
+        width: 80vw; /* Adjust width on smaller screens */
+    }
+    .card-row {
+        max-width: 100%; /* Full width on mobile */
+    }
+}

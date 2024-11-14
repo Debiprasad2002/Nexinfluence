@@ -8,11 +8,11 @@
     top: 0;
     z-index: 1000;
     overflow: hidden;
-    max-height: 50px;
+    max-height: 40px;
 }
 
 .navbar-logo {
-    font-size: 4px;
+    font-size: 98px;
     font-weight: bold;
     color: white;
 }
@@ -32,14 +32,14 @@
 
 .navbar-buttons {
     display: flex;
-    gap: 15px;
+    gap: 10px;
 }
 
 .navbar-buttons button {
     background: none;
     border: none;
     color: white;
-    font-size: 18px;
+    font-size: 98px;
     cursor: pointer;
     transition: color 0.3s, border-bottom 0.3s;
 }
@@ -59,7 +59,7 @@
 }
 .navbar-right{
 display: flex;
-gap: 15px;
+gap: 25px;
 
 
 }
@@ -76,3 +76,5 @@ gap: 15px;
 .logo:hover {
     transform: scale(1.1);  /* Slightly increase the logo size on hover */
 }
+
+

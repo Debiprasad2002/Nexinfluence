@@ -1,0 +1,39 @@
+.card-row {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    padding: 10px 0;
+    gap: 15px;
+    scroll-snap-type: x mandatory;
+    max-width: calc(250px * 6 + 15px * 5); /* Limit to 6 cards with spacing */
+    white-space: nowrap; /* Prevent cards from wrapping to a new line */
+}
+
+/* Individual card styling remains the same */
+.card {
+    flex: 0 0 250px; /* Fixed card width */
+    height: 350px; /* Fixed card height */
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: inline-flex; /* Inline-flex to respect white-space nowrap */
+    flex-direction: column;
+    overflow: hidden;
+    scroll-snap-align: start;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+/* Hover effect */
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card {
+        width: 80vw; /* Adjust width on smaller screens */
+    }
+    .card-row {
+        max-width: 100%; /* Full width on mobile */
+    }
+}

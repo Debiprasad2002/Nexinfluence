@@ -119,7 +119,9 @@ const featuredProducts = [
         { price: 25.40, link: 'http://surl.li/odkohw', image: img4, productName: "Just Herbs Serum Waterproof 8ml" },
         { price: 14.99, link: 'http://surl.li/cbwopn', image: img5, productName: "Just Herbs Matte Lipstick" },
         { price: 18.30, link: 'http://surl.li/gclmmm', image: img6, productName: "Just Herbs Red EDP Perfume" },
-        
+        { price: 18.55, link: 'http://surl.li/yjisys', image: img28, productName: "Brillare Rose Face Wash" },
+        { price: 9.95, link: 'http://surl.li/zbqebk', image: img29, productName: "Brillare Onion Hair Oil Shots" },
+        { price: 22.99, link: 'http://surl.li/sikkvb', image: img30, productName: "Brillare Pure Coconut Oil" },  
         
     ],
     [
@@ -145,6 +147,8 @@ const featuredProducts = [
         { price: 24.50, link: 'http://surl.li/obdtdv5 ', image: img22, productName: "Kapiva Get Slim Juice" },
         { price: 8.35, link: 'http://surl.li/kngijl', image: img23, productName: "Kapiva Skin Foods Glow Mix" },
         { price: 21.75, link: 'http://surl.li/zkmhip', image: img24, productName: "Kapiva Aloe Vera + Amla Juice" },
+        { price: 26.75, link: 'http://surl.li/zhjgdz', image: img34, productName: "The Man Company Beard Oil with Almond " },
+        { price: 11.60, link: 'http://surl.li/yuxksw', image: img35, productName: "The Man Company SBC - 50gm" },
     ],
     [
         { price: 12.49, link: 'http://surl.li/skyfeq', image: img25, productName: "Brillare Salicylic & Lactic Acid Face Wash" },
