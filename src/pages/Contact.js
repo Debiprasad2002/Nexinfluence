@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaMapMarkerAlt, FaEnvelope, FaSkype, FaPhone, FaInstagram, FaTwitter, FaLinkedin } from 'react-icons/fa';
 import '../assets/css/Contact.css';
+import Footer from '../components/Footer'
 
 function Contact() {
     return (
@@ -27,9 +28,14 @@ function Contact() {
                     <button type="submit">Send</button>
                 </form>
             </div>
+
+
+            
+            {/* {Footer Section} */}
             
 
         </div>
+        
     );
 }
 

@@ -138,7 +138,7 @@
 
     .footer-socials{
         text-align: center;
-        margin-left: 75px;
+        margin-left: 35px;
         margin-right: 50px;
     }
 } 
@@ -147,6 +147,14 @@
     width: auto;
     height: 120px; /* Adjust the height as needed */
     margin-bottom: 1px;
+}
+
+.footer-copyright {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #ccc;
 }
 
 

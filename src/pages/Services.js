@@ -1,6 +1,7 @@
 import React from 'react';
 import '../assets/css/Services.css';
 import videoSrc from '../assets/serviceintro.mp4'; // Ensure this path is correct
+import Footer from '../components/Footer'
 
 function Services() {
     return (
@@ -60,6 +61,7 @@ function Services() {
                 </div>
             </div>
         </div>
+        {/* <Footer /> */}
         </div>
     );
 }

@@ -19,7 +19,7 @@ function Footer() {
                     <p>Where Influencers and brands unite to create brillance</p>
                     {/* <p>Contact Us:</p> */}
                     {/* <p>+91 9090 258 907</p> */}
-                    <p>nexinfluence@gmail.com</p>
+                    {/* <p>nexinfluence@gmail.com</p> */}
                 </div>
             </div>
             <div className="footer-section">
@@ -54,6 +54,10 @@ function Footer() {
                     <a href="#"><img src={linkedinIcon} alt="LinkedIn" /></a>
                 </div>
             </div>
+            <div class="footer-copyright">
+            © 2024 NexInfluence. All rights reserved. Powered by NexInfluence Team.
+
+    </div>
         </footer>
     );
 }

@@ -2,6 +2,7 @@ import React from 'react';
 import '../assets/css/About.css';
 import bannerImage from '../assets/images/aboutus_banner.jpg'; // Replace with your actual image path
 import bannerImage2 from '../assets/images/aboutus_card1.jpg'
+import Footer from '../components/Footer'
 
 function About() {
     return (
@@ -32,6 +33,8 @@ function About() {
                     </div>
                 </div>
             </section>
+
+            {/* <Footer /> */}
         </div>
     );
 }
