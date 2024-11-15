@@ -1,13 +1,13 @@
 
 
-html, body {
+/* html, body {
     height: 100%;
     margin: 0;
     overflow: hidden;
     background: linear-gradient(270deg, #7a00ff, #00d2ff, #ff0099, #ffd200);
     background-size: 600% 600%;
     animation: gradientAnimation 12s ease infinite;
-}
+} */
 
 /* Container Styling */
 .contact-container {
@@ -160,9 +160,31 @@ html, body {
 @media (max-width: 768px) {
     .contact-container {
         flex-direction: column;
+        margin-right: 10px;
     }
     .contact-info, .contact-form-container {
-        max-width: 90%;
+        max-width: 80%;
+    }
+   
+    
+}
+
+
+@media (max-width: 768px) {
+    .contact-form input,
+    .contact-form textarea {
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+        box-sizing: border-box; /* Ensures padding is included in width */
+        margin: 0; /* Removes any extra margin */
+    }
+
+    .contact-form button {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+        box-sizing: border-box;
     }
 }
 
