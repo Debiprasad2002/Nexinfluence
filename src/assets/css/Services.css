@@ -139,23 +139,129 @@
 }
 
 
-/* Animated gradient background */
+
+/* Services-2 Section */
 .services-2 {
-    position: relative;
-    width: 100vw; /* Full-width */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 40px;
+    width: 100%;
     background: linear-gradient(120deg, #89f7fe, #66a6ff, #d4fc79, #96e6a1);
     background-size: 400% 400%;
     animation: gradientAnimation 15s ease infinite;
-    text-align: center;
-    color: #fff;
-    overflow: hidden;
-    margin-top: 20px;
+    color: #333;
 }
 
-/* Gradient animation */
 @keyframes gradientAnimation {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
+}
+
+.services-title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.services-description {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Service Card */
+.service-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    max-width: 800px; /* Increased max width for desktop view */
+    min-height: 150px; /* Set a minimum height */
+    padding: 20px;
+    background: #fff; /* Set background color to white */
+    border-radius: 10px;
+    margin: 15px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s;
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+}
+
+.service-image {
+    width: 120px; /* Adjusted width */
+    height: 120px; /* Adjusted height */
+    background-color: #ccc;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.service-content {
+    flex: 1;
+}
+
+.service-content h2 {
+    font-size: 1.8rem;
+    margin: 0 0 10px;
+}
+
+.service-content p {
+    font-size: 1rem;
+    margin: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .services-title {
+        font-size: 2rem;
+    }
+
+    .services-description {
+        font-size: 1rem;
+    }
+
+    .service-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .service-image {
+        margin: 0 0 15px;
+    }
+
+    .service-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .service-content p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .services-title {
+        font-size: 1.8rem;
+    }
+
+    .services-description {
+        font-size: 0.9rem;
+    }
+
+    .service-card {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .service-content h2 {
+        font-size: 1.3rem;
+    }
+
+    .service-content p {
+        font-size: 0.8rem;
+    }
 }

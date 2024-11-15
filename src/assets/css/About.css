@@ -161,3 +161,151 @@
     line-height: 1.6;
     margin-top: 0.5rem;
 }
+
+
+
+
+
+/* Stack content on mobile */
+@media (max-width: 768px) {
+    .content-wrapper {
+        flex-direction: column; /* Stack the image and text vertically */
+    }
+
+    .content-image {
+        width: 100%;
+    }
+
+    .content-description {
+        padding: 1rem;
+        width: 100%;
+    }
+
+    .banner-content h1 {
+        font-size: 2rem;
+    }
+
+    .banner-content p {
+        font-size: 0.9rem;
+    }
+
+    .about-section {
+        padding: 1.5rem 1rem;
+    }
+}
+
+/* Image and description styles */
+.content-image {
+    width: 50%;
+}
+
+.content-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content-description {
+    padding: 2rem;
+    width: 50%;
+}
+
+.content-description h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.content-description p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+    margin-top: 0.5rem;
+}
+
+
+
+/* About Section */
+.about-section {
+    display: flex;
+    justify-content: center;
+    padding: 4rem 2rem;
+    background-color: #f8f9fa;
+}
+
+.content-wrapper {
+    display: flex;
+    max-width: 1200px;
+    background: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 100%;
+}
+
+/* Responsive adjustments for mobile view */
+@media (max-width: 768px) {
+    .content-wrapper {
+        flex-direction: column;
+        align-items: center;
+        padding: 0; /* Remove padding on mobile */
+        margin: 0; /* Remove margin on mobile */
+    }
+
+    .content-image {
+        width: 100%;
+    }
+
+    .content-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .content-description {
+        padding: 1rem; /* Minimal padding to avoid edge clipping */
+        width: 100%;
+        text-align: left; /* Align text to the left for better readability */
+    }
+
+    .content-description h2 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .content-description p {
+        font-size: 0.9rem;
+        text-align: justify;
+        line-height: 1.4;
+    }
+
+    .about-section {
+        padding: 1rem 0; /* Reduce top and bottom padding */
+    }
+}
+
+/* Desktop Image and Description Styles */
+.content-image {
+    width: 50%;
+}
+
+.content-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content-description {
+    padding: 2rem;
+    width: 50%;
+}
+
+.content-description h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.content-description p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+    margin-top: 0.5rem;
+}
