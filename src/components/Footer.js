@@ -49,9 +49,9 @@ function Footer() {
                 </div>
                 <div className="footer-socials">
                     <a href="#"><img src={facebookIcon} alt="Facebook" /></a>
-                    <a href="#"><img src={twitterIcon} alt="Twitter" /></a>
+                    <a href="https://x.com/nexinfluence?s=09"><img src={twitterIcon} alt="Twitter" /></a>
                     <a href="https://www.instagram.com/nexinfluence.online/profilecard/?igsh=MThodnJhc3lzaTM5eA=="><img src={instagramIcon} alt="Instagram" /></a>
-                    <a href="#"><img src={linkedinIcon} alt="LinkedIn" /></a>
+                    <a href="https://www.linkedin.com/company/nexinfluence/"><img src={linkedinIcon} alt="LinkedIn" /></a>
                 </div>
             </div>
             <div class="footer-copyright">

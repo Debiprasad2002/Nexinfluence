@@ -9,13 +9,13 @@ function Contact() {
             <div className="contact-info">
                 <h2>Contact Us</h2>
                 <p><FaMapMarkerAlt />Cuttack,Odisha,India</p>
-                <p><FaEnvelope /> nexinfluence@gmail.com</p>
+                <p><FaEnvelope /> support@nexinfluence.online</p>
                 <p><FaSkype /> mike.chemardin</p>
                 <p><FaPhone /> +919090258907</p>
                 <div className="social-icons">
-                    <a href="#"><FaInstagram /></a>
-                    <a href="#"><FaTwitter /></a>
-                    <a href="#"><FaLinkedin /></a>
+                    <a href="https://www.instagram.com/nexinfluence.online/profilecard/?igsh=MThodnJhc3lzaTM5eA=="><FaInstagram /></a>
+                    <a href="https://x.com/nexinfluence?s=09"><FaTwitter /></a>
+                    <a href="https://www.linkedin.com/company/nexinfluence/"><FaLinkedin /></a>
                 </div>
             </div>
             <div className="contact-form-container">
