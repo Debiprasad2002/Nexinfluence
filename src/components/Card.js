@@ -131,6 +131,8 @@ const featuredProducts = [
         { price: 16.75, link: 'http://surl.li/chbbjq', image: img10, productName: "Anti Frizz Hair Wax Stick Wand" },
         { price: 10.40, link: 'http://surl.li/hhgwpk', image: img11, productName: "Turmeric & citrus handmade Soap" },
         { price: 27.50, link: 'http://surl.li/aunmjq', image: img12, productName: "Advanced Beard Growth Oil" },
+        { price: 9.95, link: 'http://surl.li/zbqebk', image: img29, productName: "Brillare Onion Hair Oil Shots" },
+        { price: 22.99, link: 'http://surl.li/sikkvb', image: img30, productName: "Brillare Pure Coconut Oil" },
     ],
     [
         { price: 5.99, link: 'http://surl.li/qedhex', image: img13, productName: "Carbamide Forte Calcium Tablets" },
@@ -139,6 +141,8 @@ const featuredProducts = [
         { price: 28.99, link: 'http://surl.li/khqhyg', image: img16, productName: "Biotin Supplement with Multivitamin" },
         { price: 13.50, link: 'http://surl.li/xgfniq', image: img17, productName: "Chelated Magnesium Glycinate Supplement" },
         { price: 17.45, link: 'http://surl.li/yfaavs', image: img18, productName: "Carbamide Forte Vitamin D3 K2" },
+        { price: 9.95, link: 'http://surl.li/zbqebk', image: img29, productName: "Brillare Onion Hair Oil Shots" },
+        { price: 22.99, link: 'http://surl.li/sikkvb', image: img30, productName: "Brillare Pure Coconut Oil" },
     ],
     [
         { price: 7.25, link: 'http://surl.li/vfmbsa', image: img19, productName: "Kapiva Ayurvedic BP Care Juice" },
@@ -157,6 +161,8 @@ const featuredProducts = [
         { price: 18.55, link: 'http://surl.li/yjisys', image: img28, productName: "Brillare Rose Face Wash" },
         { price: 9.95, link: 'http://surl.li/zbqebk', image: img29, productName: "Brillare Onion Hair Oil Shots" },
         { price: 22.99, link: 'http://surl.li/sikkvb', image: img30, productName: "Brillare Pure Coconut Oil" },
+        { price: 15.80, link: 'http://surl.li/febtnx', image: img15, productName: "Multivitamin Supplements for Women" },
+        { price: 28.99, link: 'http://surl.li/khqhyg', image: img16, productName: "Biotin Supplement with Multivitamin" },
     ],
     [
         { price: 13.99, link: 'http://surl.li/fbkeuh', image: img31, productName: "The Man Company Black Edt Perfume" },
@@ -165,6 +171,8 @@ const featuredProducts = [
         { price: 26.75, link: 'http://surl.li/zhjgdz', image: img34, productName: "The Man Company Beard Oil with Almond " },
         { price: 11.60, link: 'http://surl.li/yuxksw', image: img35, productName: "The Man Company SBC - 50gm" },
         { price: 20.45, link: 'http://surl.li/ajnjnl', image: img36, productName: "he Man Company Glow Pro Face Wash" },
+        { price: 17.45, link: 'http://surl.li/yfaavs', image: img18, productName: "Carbamide Forte Vitamin D3 K2" },
+        { price: 9.95, link: 'http://surl.li/zbqebk', image: img29, productName: "Brillare Onion Hair Oil Shots" },
     ]
         
 ];
