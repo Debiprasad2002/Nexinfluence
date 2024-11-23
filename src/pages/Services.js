@@ -1,5 +1,6 @@
 import React from 'react';
 import '../assets/css/Services.css';
+import { Helmet } from 'react-helmet'; // Import Helmet for metadata
 import videoSrc from '../assets/serviceintro.mp4'; // Ensure this path is correct
 import Footer from '../components/Footer'
 import im from '../Images/Service_images/IM.png'
@@ -10,6 +11,23 @@ import sm from '../Images/Service_images/SM.png'
 function Services() {
     return (
         <div className="services">
+
+          {/* Helmet for Metadata */}
+          <Helmet>
+                <title>Our Services - Nexinfluence</title>
+                <meta 
+                    name="description" 
+                    content="Explore Nexinfluence's services, including influencer marketing, social media management, content creation, and brand strategy to elevate your online presence." 
+                />
+                <meta 
+                    name="keywords" 
+                    content="influencer marketing, social media management, content creation, brand strategy, online presence, digital marketing, influencer partnerships" 
+                />
+                <meta name="author" content="Nexinfluence Team" />
+                <link rel="canonical" href="https://nexinfluence.online/services" />
+            </Helmet>
+
+
             {/* Video container */}
             <div className="video-container">
                 <video autoPlay muted loop playsInline className="background-video">

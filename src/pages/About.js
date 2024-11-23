@@ -3,10 +3,28 @@ import '../assets/css/About.css';
 import bannerImage from '../assets/images/aboutus_banner.jpg'; // Replace with your actual image path
 import bannerImage2 from '../assets/images/aboutus_card1.jpg'
 import Footer from '../components/Footer'
+import { Helmet } from 'react-helmet'; // Import Helmet for metadata
 
 function About() {
     return (
         <div className="about">
+        
+         {/* Helmet for Metadata */}
+         <Helmet>
+                <title>About Nexinfluence - Empowering Influencers & Brands</title>
+                <meta 
+                    name="description" 
+                    content="Learn about Nexinfluence, the ultimate platform connecting influencers and brands for barter and paid collaborations. Explore our mission and vision." 
+                />
+                <meta 
+                    name="keywords" 
+                    content="About Nexinfluence, influencer marketing platform, brand partnerships, collaborations, barter campaigns, paid campaigns" 
+                />
+                <meta name="author" content="Nexinfluence Team" />
+                <link rel="canonical" href="https://nexinfluence.online/about" />
+            </Helmet>
+
+
             {/* Banner Section */}
             <section className="banner" style={{ backgroundImage: `url(${bannerImage})` }}>
                 <div className="banner-overlay">

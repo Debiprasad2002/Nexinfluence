@@ -156,6 +156,7 @@
 
 import React from 'react';
 import MyCarousel from '../components/Carousel';
+import { Helmet } from 'react-helmet'; // Import Helmet for metadata
 import { 
     FeaturedProduct1, 
     FeaturedProduct2, 
@@ -170,6 +171,19 @@ import '../assets/css/Home.css';
 function Home() {
     return (
         <div className="home">
+            <Helmet>
+                <title>Nexinfluence - Where Influencers and Brands Unite</title>
+                <meta 
+                    name="description" 
+                    content="Discover Nexinfluence, the platform where influencers and brands collaborate seamlessly for creative campaigns. Explore our services now!" 
+                />
+                <meta 
+                    name="keywords" 
+                    content="Nexinfluence, influencer marketing, brand collaborations, barter deals, paid campaigns, influencer platform" 
+                />
+                <meta name="author" content="Nexinfluence Team" />
+                <link rel="canonical" href="https://nexinfluence.online/" />
+            </Helmet>
             {/* Carousel Section */}
             <MyCarousel />
 
