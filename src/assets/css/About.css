@@ -1,3 +1,9 @@
+
+.about{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 .about-container {
     padding: 50px 20px;
     text-align: center;

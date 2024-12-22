@@ -39,12 +39,16 @@ function Services() {
             <div className="services-content">
                 <h1>Our Motto </h1>
                 <p>We offer a wide range of services to boost your online presence.</p>
-                <ul>
+                 <h2>Influencer Marketing</h2>
+                 <h2>Social Media Management</h2>
+                 <h2>Content Creation</h2>
+                 <h2>Brand Strategy</h2>
+                {/* <ul>
                     <li>Influencer Marketing</li>
                     <li>Social Media Management</li>
                     <li>Content Creation</li>
                     <li>Brand Strategy</li>
-                </ul>
+                </ul> */}
             </div>
 
             <div className="services-2">
@@ -88,7 +92,9 @@ function Services() {
             </div>
         </div>
         {/* <Footer /> */}
+        <Footer />
         </div>
+        
     );
 }
 
