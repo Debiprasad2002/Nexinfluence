@@ -28,8 +28,8 @@ function Contact() {
                 <h2>Contact Us</h2>
                 <p><FaMapMarkerAlt />Cuttack,Odisha,India</p>
                 <p><FaEnvelope /> support@nexinfluence.online</p>
-                <p><FaSkype /> mike.chemardin</p>
-                <p><FaPhone /> +919090258907</p>
+                <p><FaSkype /> live:.cid.e20187d8197d28e8</p>
+                <p><FaPhone /> +918337995408</p>
                 <div className="social-icons">
                     <a href="https://www.instagram.com/nexinfluence.online/profilecard/?igsh=MThodnJhc3lzaTM5eA=="><FaInstagram /></a>
                     <a href="https://x.com/nexinfluence?s=09"><FaTwitter /></a>

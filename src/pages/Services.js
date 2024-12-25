@@ -92,7 +92,10 @@ function Services() {
             </div>
         </div>
         {/* <Footer /> */}
-        <Footer />
+        <div className='service-footer'>
+        {/* <Footer /> */}
+        </div>
+        {/* <Footer /> */}
         </div>
         
     );

@@ -6,6 +6,7 @@
     color: #fff;
     text-align: center;
     gap: 20px;
+    
 }
 
 /* Video container styles */
@@ -37,7 +38,11 @@
 
 
 
-
+.service-footer{
+    display: flex;
+  
+    width: 100%;
+}
 
 
 
