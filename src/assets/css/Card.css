@@ -1,190 +1,149 @@
-/* .card {
-    flex: 0 0 auto;
-    width: 250px;
-    margin-right: 15px;
-    border-radius: 10px;
-    overflow: hidden;
-    background-color: #f8f8f8;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s;
-}
-
-.card:hover {
-    transform: scale(1.05);
-}
-
-.card-image {
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
-}
-
-.card-details {
-    padding: 15px;
-    text-align: center;
-}
-
-.price {
-    font-size: 1.2em;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-.buy-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    border-radius: 4px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-}
-
-.buy-button:hover {
-    background-color: #0056b3;
-} */
-
-
-
 
 /* Card.css */
 
 /* Basic styling for the featured product section */
-.featured-product {
-    margin: 20px;
-}
-
-/* Styling for card row to enable horizontal scrolling */
-.card-row {
-    display: flex;                /* Display cards in a row */
-    overflow-x: auto;            /* Enable horizontal scrolling */
-    padding: 10px 0;             /* Vertical padding */
-    min-width: 100%;             /* Ensure the row takes the full width */
-}
-
-/* Individual card styling */
-.card {
-    background: white;           /* White background */
-    border-radius: 8px;         /* Rounded corners */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
-    margin-right: 15px;          /* Space between cards */
-    flex: 0 0 300px;             /* Increased width */
-    height: 400px;               /* Increased height */
-    display: flex;               /* Flexbox for content alignment */
-    flex-direction: column;      /* Align children in a column */
-    justify-content: flex-start; /* Align items to the top */
-    overflow: hidden;  
-    transition: transform 0.2s ease;  /* Smoothly scale the logo on hover */
-    cursor: pointer;          /* Prevent content overflow */
-}
-
 
 .card {
-    flex: 0 0 300px;                 /* This ensures the cards are uniformly sized */
-    height: 400px;                   /* Set a fixed height */
-    margin-right: 15px;              /* Space between cards */
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    transition: transform 0.3s ease;
-    cursor: pointer;
-}
-
-.card:hover {
-    transform: scale(1.05);
-}
-
-/* Image styling */
-.card-image {
-    width: 100%;                 /* Full width */
-    height: 250px;               /* Increased fixed height for images */
-    object-fit: cover;           /* Cover to maintain aspect ratio */
-}
-
-/* Product name styling */
-.product-name {
-    font-size: 18px;             /* Increased font size */
-    margin: 10px;                /* Margin around the product name */
-    text-align: center;          /* Center align */
-}
-
-/* Price styling */
-.price {
-    font-size: 16px;             /* Increased font size */
-    margin: 10px;                /* Margin around price */
-    text-align: center;          /* Center align */
-}
-
-/* Button styling */
-.card-buttons {
-    text-align: center;          /* Center align the button */
-    margin-top: auto;            /* Push button to the bottom of the card */
-    margin-bottom: 20px;         /* Bottom margin for spacing */
-}
-
-.button {
-    background: linear-gradient(90deg, #6a5acd, #00bfff); /* Gradient background */
-    color: white;               /* Text color */
-    padding: 12px 24px;        /* Increased padding */
-    border: none;               /* No border */
-    border-radius: 5px;         /* Rounded corners */
-    cursor: pointer;            /* Pointer cursor */
-    text-decoration: none;      /* No underline */
-    transition: background 0.3s ease, transform 0.3s ease; /* Smooth transition */
-}
-
-/* Button hover effect */
-.button:hover {
-    background: linear-gradient(90deg, #00bfff, #6a5acd); /* Reverse gradient on hover */
-    transform: scale(1.05); /* Slightly increase size on hover */
-}
-
-
-
-
-/* For the card row to allow horizontal scrolling */
-.card-row {
-    display: flex;
-    overflow-x: auto; /* Enable horizontal scrolling */
-    padding: 10px 0;
-    gap: 15px; /* Spacing between cards */
-    scroll-snap-type: x mandatory; /* Snap effect for smooth scrolling */
-}
-
-/* For individual cards */
-.card {
-    flex: 0 0 250px; /* Same width for each card */
-    height: 350px; /* Fixed height */
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
+    /* Fixed size for uniformity */
+    width: 300px;
+    height: 420px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    scroll-snap-align: start; /* Ensures card snapping */
-    transition: transform 0.3s ease;
-    cursor: pointer;
-}
-
-/* Card hover effect */
-.card:hover {
-    transform: scale(1.05);
-}
-
-/* Image inside card */
-.card-image {
-    width: 100%;
-    height: 200px; /* Fixed image height */
-    object-fit: cover;
-}
-
-/* Card content styling */
-.product-name, .price {
-    text-align: center;
+    align-items: center;
+    padding: 16px;
     margin: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    background: linear-gradient(145deg, #f9fafb, #e5e7eb);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Card Image */
+  .card img {
+    width: 90%; /* Larger image size */
+    height: 180px; /* Adjust height */
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Content inside card */
+  .card .card-header {
+    font-size: 1.4rem; /* Bigger title */
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  .card .card-content {
+    font-size: 1rem; /* Adjust font size */
+    text-align: center;
+    color: #666;
+    height: 60px; /* Fixed height */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; /* Prevent text from wrapping */
+    margin-bottom: 10px;
+  }
+  
+  .card .card-price {
+    font-size: 1.2rem; /* Bigger price */
+    font-weight: bold;
+    color: #1a73e8;
+    margin-bottom: 12px;
+  }
+  
+  /* Card footer */
+  .card .card-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+  
+  /* Buy Now button */
+  .card .button {
+    padding: 12px 20px; /* Larger button size */
+    font-size: 1rem; /* Larger font */
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #6a11cb, #2575fc);
+    color: white;
+    cursor: pointer;
+    text-decoration: none; /* No underline */
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Button hover effect */
+  .card .button:hover {
+    background: linear-gradient(90deg, #2575fc, #6a11cb);
+    transform: scale(1.05);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Button animation effect */
+  .card .button::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    transition: width 0.4s ease, height 0.4s ease;
+  }
+  
+  .card .button:hover::before {
+    width: 200%;
+    height: 200%;
+  }
+  
+  /* Hide underline when button is focused */
+  .card .button:focus {
+    outline: none;
+    text-decoration: none;
+  }
+  
+  /* Consistent card content height */
+  .card-content {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Price styling */
+  .card-price {
+    text-align: center;
+  }
+  
+  
+
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card {
+        width: 80vw; /* Adjust width on smaller screens */
+    }
+    .card-row {
+        max-width: 100%; /* Full width on mobile */
+    }
 }
+
 
 /* For responsive view */
 @media (max-width: 768px) {
@@ -195,97 +154,16 @@
 
 
 
-
-
-
-
-
-/* Card container for horizontal scrolling */
-.card-row {
-    display: flex;
-    overflow-x: auto;
-    padding: 10px 0;
-    gap: 15px;
-    scroll-snap-type: x mandatory;
-    max-width: calc(250px * 6 + 15px * 5); /* Limit to 6 cards with spacing */
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card {
+        width: 80vw; /* Adjust width on smaller screens */
+    }
+    .card-row {
+        max-width: 100%; /* Full width on mobile */
+    }
 }
 
-/* Individual card styling */
-.card {
-    flex: 0 0 250px; /* Fixed card width */
-    height: 350px; /* Fixed card height */
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    scroll-snap-align: start;
-    transition: transform 0.3s ease;
-    cursor: pointer;
-}
-
-/* Hover effect */
-.card:hover {
-    transform: scale(1.05);
-}
-
-/* Image container, occupying 70% of the card height */
-.card-image-container {
-    height: 70%; /* 70% of card height */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-bottom: 1px solid #ddd; /* Divider line */
-}
-
-/* Image styling to ensure it fits within container */
-.card-image {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain; /* Ensure the whole image is visible */
-}
-
-/* Card content for title, price, and button */
-.card-content {
-    height: 30%; /* Remaining 30% of card height */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 10px;
-}
-
-/* Title styling */
-.product-name {
-    font-size: 16px;
-    margin: 0;
-    text-align: center;
-}
-
-/* Price styling */
-.price {
-    font-size: 14px;
-    color: #333;
-}
-
-/* Button styling */
-.button {
-    background: linear-gradient(90deg, #6a5acd, #00bfff);
-    color: white;
-    padding: 8px 16px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    text-decoration: none;
-    transition: background 0.3s ease, transform 0.3s ease;
-}
-
-/* Button hover effect */
-.button:hover {
-    background: linear-gradient(90deg, #00bfff, #6a5acd);
-    transform: scale(1.05);
-}
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
@@ -294,115 +172,3 @@
     }
 }
 
-
-
-
-
-
-
-/* Card row container for desktop view */
-.card-row {
-    display: flex;
-    overflow-x: auto; /* Enable horizontal scrolling */
-    overflow-y: hidden; /* Prevent vertical scrolling inside the card row */
-    padding: 10px 0;
-    gap: 15px;
-    scroll-snap-type: x mandatory;
-    max-width: calc(250px * 6 + 15px * 5); /* Limit to 6 cards with spacing */
-    white-space: nowrap; /* Prevent cards from wrapping to a new line */
-    -ms-overflow-style: none; /* Hide scrollbar on IE and Edge */
-    scrollbar-width: none; /* Hide scrollbar on Firefox */
-}
-
-.card-row::-webkit-scrollbar {
-    display: none; /* Hide scrollbar on Webkit browsers */
-}
-
-/* Individual card styling remains the same */
-.card {
-    flex: 0 0 250px; /* Fixed card width */
-    height: 350px; /* Fixed card height */
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    display: inline-flex; /* Inline-flex to respect white-space nowrap */
-    flex-direction: column;
-    overflow: hidden;
-    scroll-snap-align: start;
-    transition: transform 0.3s ease;
-    cursor: pointer;
-}
-
-/* Hover effect */
-.card:hover {
-    transform: scale(1.05);
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-    .card {
-        width: 80vw; /* Adjust width on smaller screens */
-    }
-    .card-row {
-        max-width: 100%; /* Full width on mobile */
-    }
-}
-
-
-
-
-
-
-/* Card container wrapper for managing vertical scroll independently */
-.card-row-wrapper {
-    overflow-x: hidden; /* Prevent horizontal overflow on the main page */
-    width: 100%;
-}
-
-/* Card row container for horizontal scrolling */
-.card-row {
-    display: flex;
-    overflow-x: auto; /* Enable horizontal scrolling */
-    overflow-y: hidden; /* Prevent vertical scroll inside the card row */
-    padding: 10px 0;
-    gap: 15px;
-    scroll-snap-type: x mandatory;
-    max-width: calc(250px * 6 + 15px * 5); /* Limit to 6 cards with spacing */
-    white-space: nowrap; /* Prevent cards from wrapping to a new line */
-    -ms-overflow-style: none; /* Hide scrollbar on IE and Edge */
-    scrollbar-width: thin; /* Show scrollbar on Firefox */
-}
-
-.card-row::-webkit-scrollbar {
-    display: none; /* Hide scrollbar on WebKit browsers */
-}
-
-/* Individual card styling */
-.card {
-    flex: 0 0 250px; /* Fixed card width */
-    height: 350px; /* Fixed card height */
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    display: inline-flex; /* Inline-flex to respect white-space nowrap */
-    flex-direction: column;
-    overflow: hidden;
-    scroll-snap-align: start;
-    transition: transform 0.3s ease;
-    cursor: pointer;
-}
-
-/* Hover effect */
-.card:hover {
-    transform: scale(1.05);
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-    .card {
-        width: 80vw; /* Adjust width on smaller screens */
-    }
-    .card-row {
-        max-width: 100%; /* Full width on mobile */
-    }
-}
